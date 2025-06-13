@@ -15,7 +15,6 @@ jmespath==1.0.1
 jsonschema==4.19.0
 jsonschema-specifications==2023.7.1
 MarkupSafe==3.0.2
-mysqlclient==2.2.7
 numpy==1.25.2
 opencv-python==4.8.0.76
 pillow==11.2.1
