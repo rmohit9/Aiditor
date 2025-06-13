@@ -10,3 +10,4 @@ MarkupSafe==3.0.2
 # Needed for Render deployment
 setuptools>=61
 wheel
+gunicorn
