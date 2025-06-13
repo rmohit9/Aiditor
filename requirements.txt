@@ -1,22 +1,13 @@
-# Web Framework
 Flask==3.1.0
-
-# Gunicorn for deployment
-gunicorn==21.2.0
-
-# Image + NumPy compatibility
-numpy==1.25.2
+Werkzeug==3.1.3
 opencv-python==4.8.0.76
-pillow==11.2.0
+pillow==11.2.1
+click==8.1.8
+itsdangerous==2.2.0
+Jinja2==3.1.5
+MarkupSafe==3.0.2
 
-# Flask MySQL Integration
-Flask-MySQLdb==2.0.0
-
-# Environment & Utility
-python-dotenv==1.1.0
-PyYAML==6.0.2
-
-# Build system
-setuptools>=67.0.0,<70
+# Needed for Render deployment
+setuptools>=61
 wheel
-
+gunicorn
